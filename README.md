@@ -10,24 +10,30 @@ This repository is a sequel to [iSea](https://github.com/pop-ketle/iSea)
 ├── crawler <- Scraping script for datasets
 │   ├── example.py
 │   └── initialize_db.py
-├── datasets <- datasets
-│   ├── README.md
-│   ├── images
-│   │   ├── SQLite_icon.svg
-│   │   └── data_ER.svg
-│   └── raw <- raw datasets
-│       ├── data.db <- SQLite DB
-│       ├── fishery_data.csv
-│       ├── satellite_images <- Satellite Images/YEAR/IMG_CLASS/{IMG_CLASS}_{yyyymmdd}0000.png
-│       └── suion_data.csv
+└── datasets <- datasets
+    ├── README.md
+    ├── images
+    │   ├── SQLite_icon.svg
+    │   └── data_ER.svg
+    └── raw <- raw datasets
+        ├── data.db <- SQLite DB
+        ├── fishery_data.csv
+        ├── satellite_images <- Satellite Images/YEAR/IMG_CLASS/{IMG_CLASS}_{yyyymmdd}0000.png
+        └── suion_data.csv
 ```
 
-## Initialize
-Download dataset from G-Drive  
+## Initialization
+Download dataset from G-Drive(I'm looking into good data distribution methods, so if you have any recommendations, please let us know.)
 https://drive.google.com/drive/folders/1M0aMYlUAgpzrzAYVEMkPrYeE9rJx6z91?usp=sharing
 
 Place the downloaded dataset as shown above.
 
+Execute this script for db initialization.
+
+```
+$ cd crawler
+$ python initialize_db.pu
+```
 
 next step is later...
 
