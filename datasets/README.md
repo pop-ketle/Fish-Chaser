@@ -2,8 +2,7 @@
 This dataset distributed by [いわて大漁ナビ 岩手県水産情報配信システム](https://www.suigi.pref.iwate.jp)  
 
 NOTE: If you want to use this datasets, you should be write 「岩手県水産技術センター水産情報配信システム調べ」  
-We make no guarantees about what will result from the use of this datasets.  
-You should be contact [いわて大漁ナビ 岩手県水産情報配信システム](https://www.suigi.pref.iwate.jp/) by yourself.
+We make no guarantees about what will result from the use of this datasets. You should be contact [いわて大漁ナビ 岩手県水産情報配信システム](https://www.suigi.pref.iwate.jp/) by yourself.
 
 ## About Images
 - IMG_CLASS
@@ -14,7 +13,7 @@ You should be contact [いわて大漁ナビ 岩手県水産情報配信シス�
 ## About DB
 This database used SQLite3 and .csv files are output of db.
 
-![SQLiteアイコン](./images/sqlite_icon.svg)
+![SQLiteアイコン](./images/SQLite_icon.svg)
 
 ### ER図
 ![ER図](./images/data_ER.svg)

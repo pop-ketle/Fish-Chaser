@@ -23,19 +23,23 @@ This repository is a sequel to [iSea](https://github.com/pop-ketle/iSea)
 ```
 
 ## Initialization
-Download dataset from G-Drive(I'm looking into good data distribution methods, so if you have any recommendations, please let us know.)
+1. Download dataset from G-Drive  
+(I'm looking into good data distribution methods, so if you have any recommendations, please let us know.)  
 https://drive.google.com/drive/folders/1M0aMYlUAgpzrzAYVEMkPrYeE9rJx6z91?usp=sharing
 
-Place the downloaded dataset as shown above.
+2. Place the downloaded dataset as shown above.
 
-Execute this script for db initialization.
+3. Execute this script for db initialization.
 
 ```
 $ cd crawler
-$ python initialize_db.pu
+$ python initialize_db.py
 ```
 
-next step is later...
+Learn more about the datasets [here](./datasets/README.md).
+
+
+4. next step is later...
 
 ## DB Architecture
 ![ER図](./datasets/images/data_ER.svg)
